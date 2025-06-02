@@ -3,7 +3,6 @@
   "description": "Cornerstone.js Monorepo Root",
   "private": true,
   "workspaces": [
-    "packages/adapters",
     "packages/core",
     "packages/dicomImageLoader",
     "packages/nifti-volume-loader",
