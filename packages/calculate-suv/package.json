@@ -14,12 +14,12 @@
     "node": ">=10"
   },
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
+    "start": "npx tsdx watch",
+    "build": "npx tsdx build",
+    "test": "npx tsdx test",
     "coverage": "jest --collect-coverage",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "lint": "npx tsdx lint",
+    "prepare": "npx tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
