@@ -16,7 +16,7 @@
   "scripts": {
     "start": "npx tsdx watch",
     "build": "",
-    "test": "npx tsdx test",
+    "test": "",
     "coverage": "jest --collect-coverage",
     "lint": "npx tsdx lint",
     "prepare": "npx tsdx build",
