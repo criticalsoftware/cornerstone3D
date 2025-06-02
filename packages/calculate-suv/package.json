@@ -19,7 +19,7 @@
     "test": "",
     "coverage": "jest --collect-coverage",
     "lint": "npx tsdx lint",
-    "prepare": "npx tsdx build",
+    "prepare": "",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
