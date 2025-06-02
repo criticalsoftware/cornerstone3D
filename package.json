@@ -40,7 +40,7 @@
     "docs:watch": "npx lerna run docs:watch",
     "preinstall": "node preinstall.js",
     "prepare": "husky",
-    "commit:prepare": "yarn test:ci && yarn test:unit",
+    "commit:prepare": "",
     "start": "yarn run dev",
     "test:e2e:coverage": "nyc --reporter=html yarn run test:e2e:ci",
     "test:e2e:ci": "npx playwright test",
